@@ -619,5 +619,5 @@ for ( let i = 0; i < usersData.length; i++){
     <tr/>
 
     `
-    document.getElementById('table').innerHTML =    `<caption><b>Table of Users Data:</b></caption> <tr> <th>Id</th> <th>UserId</th><th>Title</th><th>Body</th></tr> ${data}`;
+    document.getElementById('table').innerHTML =    `<caption><b>Table of Users Data:</b></caption> <tr> <th>Id</th> <th>Users Id</th><th>Title</th><th>Body</th></tr> ${data}`;
 }
